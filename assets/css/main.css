@@ -138,6 +138,7 @@ input, select, textarea {
 		font-weight: 700;
 		line-height: 1em;
 		margin: 0 0 0.5625em 0;
+		/* margin-bottom: 15px; */
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -146,6 +147,11 @@ input, select, textarea {
 			text-decoration: none;
 		}
 
+	h1 {
+		font-size: 2em;
+		line-height: 1.5em;
+	}
+		
 	h2 {
 		font-size: 2em;
 		line-height: 1.5em;
@@ -163,7 +169,8 @@ input, select, textarea {
 
 	h5 {
 		font-size: 0.9em;
-		line-height: 1.5em;
+		line-height: 1.75em;
+		margin-bottom: 20px;
 	}
 
 	h6 {
@@ -1763,6 +1770,7 @@ input, select, textarea {
 		position: relative;
 		margin: 0 0 1.6875em 0;
 	}
+	
 
 	header h2 + p {
 		font-size: 1.25em;
@@ -1784,9 +1792,21 @@ input, select, textarea {
 		line-height: 1.5em;
 	}
 
-	header.major h2 {
+	header.major h1 {
 		color: #4acaa8;
 		font-size: 3.5em;
+	}
+
+		header.major h1 + p {
+			color: #777;
+			font-size: 1.75em;
+			font-weight: 700;
+			margin-top: -0.75em;
+		}
+
+	header.major h2 {
+		color: #4acaa8;
+		font-size: 2.5em;
 	}
 
 		header.major h2 + p {

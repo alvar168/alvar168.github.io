@@ -1759,6 +1759,54 @@ input, select, textarea {
 
 		}
 
+/* Container2 */
+
+	.container2 {
+		position: relative;
+		margin: 0 auto;
+		max-width: calc(100% - 4.5em);
+		width: 45em;
+	}
+
+		.container2.xsmall {
+			width: 11.25em;
+		}
+
+		.container2.small {
+			width: 22.5em;
+		}
+
+		.container2.medium {
+			width: 33.75em;
+		}
+
+		.container2.large {
+			width: 56.25em;
+		}
+
+		.container2.xlarge {
+			width: 67.5em;
+		}
+
+		.container2.max {
+			width: 100%;
+		}
+
+		@media screen and (max-width: 1024px) {
+
+			.container2 {
+				width: 100% !important;
+			}
+
+		}
+
+		@media screen and (max-width: 480px) {
+
+			.container2 {
+				max-width: calc(100% - 3.375em);
+			}
+
+		}
 /* Section/Article */
 
 	section.special, article.special {
@@ -2081,9 +2129,25 @@ input, select, textarea {
 			position: relative;
 		}
 		
-		/* Hide the images by default */
+		/* Hide the images by default
 		.mySlides {
 			display: none;
+		} */
+
+		.mySlides {
+			width: 100%;
+			padding-bottom: 75%; /* Set the aspect ratio (e.g., 4:3) */
+			position: relative;
+			overflow: hidden;
+			margin-bottom: 20px; /* Adjust the margin as needed */
+		}
+		
+		.mySlides img {
+			position: absolute;
+			z-index: 0; 
+			width: 100%;
+			height: 100%;
+			object-fit: contain; /* Ensure the entire image is covered */
 		}
 		
 		/* Add a pointer when hovering over the thumbnail images */
@@ -2100,12 +2164,14 @@ input, select, textarea {
 			width: auto;
 			padding: 16px;
 			margin-top: -50px;
-			color: white;
+			color: rgb(0, 172, 143);
 			font-weight: bold;
 			font-size: 20px;
 			border-radius: 0 3px 3px 0;
 			user-select: none;
 			-webkit-user-select: none;
+			/* background-color: #ffffff; */
+			background-color: rgba(0, 0, 0, 0.8);
 		}
 		
 		/* Position the "next button" to the right */
@@ -2117,16 +2183,20 @@ input, select, textarea {
 		/* On hover, add a black background color with a little bit see-through */
 		.prev:hover,
 		.next:hover {
-			background-color: rgba(0, 0, 0, 0.8);
+			/* background-color: rgba(0, 0, 0, 0.8); */
+			background-color: #88e1c2;
 		}
 		
 		/* Number text (1/3 etc) */
 		.numbertext {
-			color: #f2f2f2;
-			font-size: 12px;
+			color: #008469;
+			font-size: 16px;
+			font-weight: bold;
 			padding: 8px 12px;
 			position: absolute;
 			top: 0;
+			z-index: 1; 
+			background-color: #ffffff;
 		}
 		
 		/* Container for image text */

@@ -2128,7 +2128,7 @@ input, select, textarea {
 		flex-direction: column; /* Stacks images vertically */
 		flex: 1; /* Allows images to take proportional space */
 		max-width: 300px; /* Limits the width of the image container */
-		min-width: 200px; /* Ensures a minimum size for the image container */
+		/* min-width: 200px; Ensures a minimum size for the image container */
 	}
 
 /* Text container */

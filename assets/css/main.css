@@ -2128,7 +2128,19 @@ input, select, textarea {
 		flex-direction: column; /* Stacks images vertically */
 		flex: 1; /* Allows images to take proportional space */
 		max-width: 300px; /* Limits the width of the image container */
-		/* min-width: 200px; Ensures a minimum size for the image container */
+		min-width: 200px; /* Ensures a minimum size for the image container */
+		gap: 10px;
+	}
+
+/* Responsive styles for smaller screens */
+	@media (max-width: 768px) {
+		.content-container {
+			flex-direction: column; /* Stack images and text vertically */
+		}
+
+		.image-container {
+			max-width: 100%; /* Allow images to stretch fully */
+		}
 	}
 
 /* Text container */

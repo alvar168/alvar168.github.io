@@ -2120,29 +2120,32 @@ input, select, textarea {
 		display: flex;           /* Aligns image container and text side by side */
 		flex-wrap: wrap;         /* Ensures wrapping for smaller screens */
 		gap: 20px;               /* Adds space between image and text */
-		align-items: flex-start; /* Aligns items to the top of their containers */
+		align-items: center; /* Aligns items to the top of their containers */
 	}
 
 /* Image container for stacking images vertically */
 	.image-container {
 		display: flex;           /* Enables flex layout */
 		flex-direction: column;  /* Stacks images vertically */
-		flex: 1;                 /* Allocates proportional width for the image container */
+		flex: 1.5;                 /* Allocates proportional width for the image container */
+		min-width: 200px; /* Ensures the images maintain a visible size */
 	}
 
 /* Styling for the text block */
 	.inner {
-		flex: 2;                 /* Allocates proportional width for the text block */
+		flex: 2.5;                 /* Allocates proportional width for the text block */
 		max-width: 600px;        /* Restricts width for better readability */
 	}
 /* Image */
 	
-	.image {
+	.image img {
 		border-radius: 5px;
 		border: 0;
 		display: inline-block;
 		position: relative;
 		box-sizing: border-box;
+		max-width: 150px; /* Set a reasonable max width */
+    	max-height: 150px; /* Set a matching max height */
 	  }
 
 	  	.image-container .image {

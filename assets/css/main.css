@@ -2114,14 +2114,41 @@ input, select, textarea {
 			font-family: 'Font Awesome 5 Brands';
 		}
 
+/* Parent container for images and text */
+	.content-container {
+		display: flex;
+		gap: 20px; /* Adds spacing between the image and text */
+		align-items: flex-start; /* Align items to the top */
+		flex-wrap: wrap; /* Ensures wrapping for smaller screens */
+	}
+
+/* Image container to stack images vertically */
+	.image-container {
+		display: flex;
+		flex-direction: column; /* Stacks images vertically */
+		flex: 1; /* Allows images to take proportional space */
+		max-width: 300px; /* Limits the width of the image container */
+		min-width: 200px; /* Ensures a minimum size for the image container */
+	}
+
+/* Text container */
+	.inner {
+		flex: 2; /* Gives the text more space than the images */
+		max-width: 700px; /* Ensures the text does not stretch too wide */
+	}
+
 /* Image */
 
-	.image {
+	.image img {
+		width: 100%;
+		height: auto;
+		margin-bottom: 10px;
 		border-radius: 5px;
+		/* border-radius: 5px;
 		border: 0;
 		display: inline-block;
 		position: relative;
-		box-sizing: border-box;
+		box-sizing: border-box; */
 	  }
 	  
 		/* Position the image container (needed to position the left and right arrows) */

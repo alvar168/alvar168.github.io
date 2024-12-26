@@ -2125,10 +2125,10 @@ input, select, textarea {
 /* Image container to stack images vertically */
 	.image-container {
 		display: flex;
-		flex-direction: flex; /* Stacks images vertically */
+		flex-direction: column; /* Stacks images vertically */
 		flex: 1; /* Allows images to take proportional space */
 		max-width: 300px; /* Limits the width of the image container */
-		min-width: 200px; /* Ensures a minimum size for the image container */
+		min-width: 250px; /* Ensures a minimum size for the image container */
 		gap: 10px;
 	}
 

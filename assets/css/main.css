@@ -2147,7 +2147,7 @@ input, select, textarea {
 		/* display: inline-block; */
 		/* position: relative; */
 		/* box-sizing: border-box; */
-		/* max-width: 150px; Set a reasonable max width */
+		max-width: 100%; /*Set a reasonable max width*/
     	/* max-height: 150px; Set a matching max height */
 	  }
 

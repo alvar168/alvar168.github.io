@@ -2128,7 +2128,7 @@ input, select, textarea {
 		flex-direction: column; /* Stacks images vertically */
 		flex: 1; /* Allows images to take proportional space */
 		max-width: 300px; /* Limits the width of the image container */
-		/* min-width: 200px; Ensures a minimum size for the image container */
+		min-width: 200px; /* Ensures a minimum size for the image container */
 	}
 
 /* Text container */
@@ -2136,19 +2136,14 @@ input, select, textarea {
 		flex: 2; /* Gives the text more space than the images */
 		max-width: 700px; /* Ensures the text does not stretch too wide */
 	}
-
 /* Image */
 
-	.image img {
-		width: 100%;
-		height: auto;
-		margin-bottom: 10px;
+	.image {
 		border-radius: 5px;
-		/* border-radius: 5px;
 		border: 0;
 		display: inline-block;
 		position: relative;
-		box-sizing: border-box; */
+		box-sizing: border-box;
 	  }
 	  
 		/* Position the image container (needed to position the left and right arrows) */

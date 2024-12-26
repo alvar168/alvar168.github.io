@@ -2114,30 +2114,51 @@ input, select, textarea {
 			font-family: 'Font Awesome 5 Brands';
 		}
 
+
+/* Main container for aligning images and text */
+	.content-container {
+		display: flex;           /* Aligns image container and text side by side */
+		/* flex-wrap: wrap;         Ensures wrapping for smaller screens */
+		gap: 20px;               /* Adds space between image and text */
+		align-items: flex-start; /* Aligns items to the top of their containers */
+	}
+
+/* Image container for stacking images vertically */
+	.image-container {
+		display: flex;           /* Enables flex layout */
+		flex-direction: column;  /* Stacks images vertically */
+		flex: 0 0 200px;                 /* Allocates proportional width for the image container */
+		/* min-width: 200px; Ensures the images maintain a visible size */
+	}
+
+/* Styling for the text block */
+	.inner {
+		flex: 1;                 /* Allocates proportional width for the text block */
+		max-width: 600px;        /* Restricts width for better readability */
+	}
 /* Image */
-
-	.image {
+	
+	.image img {
 		border-radius: 5px;
-		border: 0;
-		display: inline-block;
-		position: relative;
-		box-sizing: border-box;
+		/* border: 0; */
+		width: auto;
+		height: auto;
+		margin-bottom: 10px;
+		/* display: inline-block; */
+		/* position: relative; */
+		/* box-sizing: border-box; */
+		max-width: 100%; /*Set a reasonable max width*/
+    	/* max-height: 150px; Set a matching max height */
 	  }
 
-	  /* New class to stack images vertically */
-	  .image-container {
-		display: flex;
-		flex-direction: column;
-	  }
-
-	  .image-container .image {
+	  	/* .image-container .image {
 		margin-bottom: 10px; /* Adjust the spacing between images as needed */
-	  }
+		/* } */ */
 
-		/* Position the image container (needed to position the left and right arrows) */
+		/* Position the image container (needed to position the left and right arrows)
 		.container {
 			position: relative;
-		}
+		} */
 		
 		/* Hide the images by default
 		.mySlides {

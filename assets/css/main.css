@@ -2151,14 +2151,14 @@ input, select, textarea {
     	/* max-height: 150px; Set a matching max height */
 	  }
 
-	  	.image-container .image {
+	  	/* .image-container .image {
 		margin-bottom: 10px; /* Adjust the spacing between images as needed */
-		}
+		/* } */ */
 
-		/* Position the image container (needed to position the left and right arrows) */
+		/* Position the image container (needed to position the left and right arrows)
 		.container {
 			position: relative;
-		}
+		} */
 		
 		/* Hide the images by default
 		.mySlides {

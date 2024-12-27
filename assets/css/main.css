@@ -3585,3 +3585,14 @@ input, select, textarea {
 			aspect-ratio: 3 / 4; /* Adjust aspect ratio for portrait view on smaller screens */
 		}
 	}
+
+		/* Style the external link icon */
+	.inner h4 a i {
+		font-size: 0.8em; /* Make the icon slightly smaller */
+		margin-left: 5px; /* Adds spacing between the text and the icon */
+		color: #008469; /* Matches the link color */
+	}
+
+	.inner h4 a:hover i {
+		color: #005a4c; /* Changes color on hover along with the link */
+	}

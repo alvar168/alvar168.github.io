@@ -3533,3 +3533,55 @@ input, select, textarea {
 			}
 
 	}
+
+	/* Style the CV container */
+	#cv {
+		text-align: center; /* Center the title and button */
+		margin: 20px auto;
+		padding: 10px;
+	}
+
+	/* Responsive container for the PDF */
+	.pdf-container {
+		width: 100%;
+		max-width: 900px; /* Limits the width of the PDF on larger screens */
+		margin: 0 auto; /* Centers the iframe on the page */
+		aspect-ratio: 16 / 9; /* Sets a responsive aspect ratio */
+		position: relative;
+	}
+
+	/* Responsive iframe for the PDF */
+	.responsive-pdf {
+		width: 100%;
+		height: 100%;
+		border: none; /* Removes default iframe borders */
+		position: absolute;
+	}
+
+	/* Download button for mobile users */
+	.download-link {
+		margin-top: 15px; /* Add space between the iframe and the button */
+	}
+
+	.download-link .button {
+		display: inline-block;
+		padding: 10px 20px;
+		color: white;
+		background-color: #008469;
+		text-decoration: none;
+		border-radius: 5px;
+		font-weight: bold;
+		transition: background-color 0.3s ease;
+	}
+
+	/* Button hover effect */
+	.download-link .button:hover {
+		background-color: #005a4c;
+	}
+
+	/* Mobile adjustments */
+	@media (max-width: 768px) {
+		.pdf-container {
+			aspect-ratio: 3 / 4; /* Adjust aspect ratio for portrait view on smaller screens */
+		}
+	}

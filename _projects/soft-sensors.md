@@ -4,7 +4,7 @@ title: Soft Sensors
 description: Flexible capacitive sensors for force feedback in soft robotic systems
 img: assets/img/pic05.png
 importance: 7
-category: background
+category: research
 ---
 
 This project focused on the development of flexible capacitive force sensors for integration into soft robotic gripping systems.

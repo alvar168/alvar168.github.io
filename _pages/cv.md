@@ -8,8 +8,8 @@ description: View or download my curriculum vitae.
 ---
 
 <div style="margin-bottom: 1rem;">
-  <a href="/assets/pdf/AAV_CV.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary">
-    Open PDF in a new tab
+  <a href="{{ '/assets/pdf/AAV_CV.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary">
+    Download CV (PDF)
   </a>
 </div>
 

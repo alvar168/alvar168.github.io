@@ -23,7 +23,6 @@ We developed an integrated system where participants kinesthetically teach a rob
 
 User studies demonstrate that communicating robot learning improves teaching performance, increases user confidence, and supports more effective human–robot collaboration. This work highlights the importance of designing learning algorithms and communication interfaces together, rather than as separate components.
 
-
 ### Multimodal Communication Interfaces
 
 The system leverages multiple feedback modalities—including visual and haptic signals—to convey different aspects of the robot’s learning. Multimodal feedback enables richer and more intuitive communication compared to single-modality interfaces, allowing users to interpret uncertainty, confidence, and task-relevant features more effectively.
@@ -37,7 +36,17 @@ The system leverages multiple feedback modalities—including visual and haptic 
   Visual interfaces used in the case study. Left: GUI showing learned waypoints and robot confidence through color. Right: AR overlay of waypoints in the physical workspace, with confidence conveyed through haptic feedback.
 </div>
 
+This project is described in more detail in {% cite habibian2024survey %}.
+
 ### Project Overview
+
+{% raw %}
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/EXfQctqFzWs?si=T2_BkwWzzU1vVfd-" frameborder="0" allowfullscreen
+    style="position:absolute;top:0;left:0;width:100%;height:100%;">
+  </iframe>
+</div>
+{% endraw %}
 
 {% raw %}
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1em;">
@@ -50,12 +59,3 @@ The system leverages multiple feedback modalities—including visual and haptic 
   </iframe>
 </div>
 {% endraw %}
-
-{% raw %}
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/EXfQctqFzWs?si=T2_BkwWzzU1vVfd-" frameborder="0" allowfullscreen
-    style="position:absolute;top:0;left:0;width:100%;height:100%;">
-  </iframe>
-</div>
-{% endraw %}
-

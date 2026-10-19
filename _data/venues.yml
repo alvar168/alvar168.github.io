@@ -1,9 +1,35 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"RA-L":
+  url: https://www.ieee-ras.org/publications/ra-l
+  color: "#00629b"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"ToH":
+  url: https://www.computer.org/csdl/journal/th
+  color: "#7b3fa0"
 
-"Vision":
-  color: "#009f36"
+"IJRR":
+  url: https://journals.sagepub.com/home/ijr
+  color: "#a3301f"
+
+"ICRA":
+  color: "#0b7a75"
+
+"IROS":
+  color: "#1f6f43"
+
+"RoboSoft":
+  color: "#c26a00"
+
+"WHC":
+  color: "#8c2d5c"
+
+"BioRob":
+  color: "#2d6a8c"
+
+"SMS":
+  color: "#5a5a5a"
+
+"ETFS":
+  color: "#5a5a5a"
+
+"Preprint":
+  color: "#8a8a8a"

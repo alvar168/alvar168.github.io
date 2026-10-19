@@ -2,7 +2,7 @@
 layout: page
 title: Modular Soft Haptic Displays with Fluidic Logic and Personalization
 description: Reconfigurable soft haptic interfaces with personalized signal design
-img: assets/img/modular_haptics_overview.png
+img: assets/img/publication_preview/modular_thumbnail.png
 importance: 1
 category: research
 related_publications: true
@@ -43,6 +43,8 @@ This approach reduces reliance on complex electropneumatic control hardware and 
 
 Beyond the hardware, the system also incorporates an information-theoretic personalization framework that selects the most effective display configuration for a given user and task. User studies showed that combining mechanical reconfiguration with algorithmic selection improved task performance and made the feedback feel more useful, highlighting the value of integrating hardware modularity with human-centered optimization.
 
+This project is described in more detail in {% cite alvarez2026modular %}.
+
 ### Project Video
 
 {% raw %}
@@ -58,6 +60,7 @@ Beyond the hardware, the system also incorporates an information-theoretic perso
 {% endraw %}
 
 ### Fluidic Logic Demonstration
+
 This video highlights the fluidic logic control architecture, including code logic and output logic, and demonstrates how different haptic signal modalities are generated and reconfigured.
 {% raw %}
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-top: 1em;">

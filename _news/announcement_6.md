@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2025-12-20
+date: 2026-01-27
 inline: true
 related_posts: false
 ---
 
-I am happy to announce I will be going back to **MIT Lincoln Laboratory as a Postdoctoral Researcher** to continue my work on soft continuum robots for Search & Rescue operations!
+First day back at **MIT Lincoln Laboratory**, now as a **Postdoctoral Researcher**, continuing my work on soft continuum robots for search and rescue!

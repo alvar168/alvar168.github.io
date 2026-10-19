@@ -36,7 +36,6 @@ The wrapped display is constructed from flexible, heat-sealed pneumatic pouches 
   Overview of the wrapped haptic display design, including sleeve and ring configurations for single- and multi-degree-of-freedom actuation.
 </div>
 
-
 ### Project Video
 
 {% raw %}
